@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'unsafe-inline'; connect-src 'none'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'">
+  <meta name="description" content="Independent, unsolicited EV charger landing-page redesign concept for Hardwire Electric, LLC. Demo only—not the official company website.">
+  <title>Hardwire Electric EV Charger Landing Page — Independent Concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#071b30;--navy:#0b2844;--muted:#607287;--line:#dce8f2;--paper:#fff;
+      --wash:#f5f9fc;--lime:#b8f500;--lime-dark:#79a800;--blue:#136df0;--cyan:#39c6dd;
+      --shadow:0 28px 60px -34px rgba(7,27,48,.42),0 14px 30px -22px rgba(7,27,48,.24);
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;overflow-x:hidden}a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.concept-bar{background:#ffefb5;color:#3d3000;text-align:center;padding:9px 16px;font-size:12px;font-weight:700;letter-spacing:.01em}.concept-bar a{text-underline-offset:3px}.site-nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.93);backdrop-filter:blur(14px);border-bottom:1px solid rgba(220,232,242,.9)}.nav-row{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;letter-spacing:-.03em}.mark{display:grid;place-items:center;width:34px;height:34px;color:#081c2e;background:var(--lime);border-radius:8px;font-size:19px;box-shadow:0 8px 18px rgba(121,168,0,.22)}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:.16em;text-transform:uppercase}.nav-links{display:flex;align-items:center;gap:22px;font-size:13px;font-weight:700}.nav-links a{text-decoration:none}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:7px;border:1px solid transparent;font-weight:800;text-decoration:none;transition:.2s ease;cursor:pointer}.button.primary{background:var(--blue);color:#fff;box-shadow:0 10px 24px rgba(19,109,240,.25)}.button.primary:hover{transform:translateY(-2px);background:#075bcf}.button.dark{background:var(--ink);color:#fff}.button.ghost{border-color:#b9cddd;background:#fff;color:var(--ink)}.button.demo{border-color:#b9cddd;background:#edf3f8;color:#637588;cursor:not-allowed}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#f8fcff 0%,#fff 58%,#effbe7 100%)}.hero:before{content:"";position:absolute;width:480px;height:480px;right:-160px;top:-230px;border-radius:50%;background:radial-gradient(circle,rgba(184,245,0,.34),rgba(57,198,221,.05) 54%,transparent 70%)}.hero-grid{position:relative;display:grid;grid-template-columns:1.06fr .94fr;align-items:center;gap:60px;padding:86px 0 72px}.eyebrow{font-family:"Source Code Pro",monospace;color:#376700;font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:700}.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.02;letter-spacing:-.055em;margin:16px 0 22px;max-width:720px}.hero h1 span{color:var(--blue)}.hero .lead{font-size:19px;color:var(--muted);max-width:650px;margin:0 0 28px}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.microproof{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#334b60;font-size:13px;font-weight:700}.microproof span:before{content:"✓";color:#4f7b00;background:#e8fac5;border-radius:50%;padding:2px 5px;margin-right:7px}.visual{position:relative;min-height:490px;display:grid;place-items:center}.garage{position:relative;width:100%;max-width:470px;aspect-ratio:1/.95;background:linear-gradient(145deg,#173b5b,#081c2f);border-radius:20px;box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(255,255,255,.15)}.garage:before{content:"";position:absolute;inset:0;background:linear-gradient(130deg,rgba(255,255,255,.12),transparent 35%),radial-gradient(circle at 75% 25%,rgba(57,198,221,.19),transparent 31%)}.floor{position:absolute;left:0;right:0;bottom:0;height:36%;background:linear-gradient(#253f54,#102536);clip-path:polygon(0 26%,100% 0,100% 100%,0 100%)}.charger{position:absolute;z-index:2;right:66px;top:73px;width:100px;height:154px;border-radius:19px;background:linear-gradient(150deg,#fff,#dceaf3);box-shadow:0 20px 30px rgba(0,0,0,.35)}.charger:before{content:"";position:absolute;left:29px;top:24px;width:42px;height:42px;border-radius:50%;background:radial-gradient(circle at 50% 50%,var(--lime) 0 27%,#183650 29% 46%,#fff 48%)}.charger:after{content:"READY";position:absolute;left:0;right:0;bottom:26px;text-align:center;color:#4e6a80;font:500 9px "Source Code Pro",monospace;letter-spacing:.13em}.cable{position:absolute;z-index:1;right:41px;top:194px;width:76px;height:142px;border-right:8px solid var(--lime);border-bottom:8px solid var(--lime);border-radius:0 0 46px 0;transform:rotate(9deg)}.car{position:absolute;z-index:3;left:30px;right:50px;bottom:70px;height:116px;background:linear-gradient(170deg,#e9f2f8,#91a8b9);border-radius:70px 90px 22px 20px;box-shadow:0 22px 25px rgba(0,0,0,.3)}.car:before{content:"";position:absolute;left:86px;top:3px;width:150px;height:50px;background:linear-gradient(150deg,#b8e7ef,#34526a);clip-path:polygon(25% 0,80% 0,100% 100%,0 100%);border-radius:28px 34px 0 0}.car:after{content:"";position:absolute;left:30px;right:28px;bottom:-18px;height:38px;background:radial-gradient(circle at 17% 50%,#0b1621 0 14px,#718698 15px 20px,transparent 21px),radial-gradient(circle at 84% 50%,#0b1621 0 14px,#718698 15px 20px,transparent 21px)}.status-card{position:absolute;z-index:5;left:-20px;bottom:28px;background:#fff;width:230px;padding:18px;border-radius:10px;box-shadow:var(--shadow)}.status-card b{display:block;font-size:15px}.status-card small{color:var(--muted)}.meter{height:7px;background:#e6edf3;border-radius:5px;margin:12px 0 5px;overflow:hidden}.meter i{display:block;width:72%;height:100%;background:linear-gradient(90deg,var(--lime-dark),var(--lime))}.section{padding:88px 0}.section.wash{background:var(--wash)}.section.dark{background:var(--ink);color:#fff}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px}.section-head h2{font-size:clamp(31px,4vw,46px);line-height:1.08;letter-spacing:-.045em;margin:10px 0 0}.section-head p{max-width:520px;color:var(--muted);margin:0}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:27px;box-shadow:0 16px 35px -32px rgba(7,27,48,.4)}.service-card .icon{display:grid;place-items:center;width:43px;height:43px;border-radius:8px;background:#eaf8ca;font-size:20px}.service-card h3{margin:21px 0 8px;font-size:20px;letter-spacing:-.025em}.service-card p{color:var(--muted);margin:0;font-size:14px}.service-card .verify{display:inline-block;margin-top:15px;font-size:11px;color:#6c5800;background:#fff0b8;padding:4px 7px;border-radius:4px}.process{counter-reset:step;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{position:relative;border-top:3px solid var(--lime);padding:24px 16px 0 0}.step:before{counter-increment:step;content:"0" counter(step);font:700 12px "Source Code Pro",monospace;color:#4f7b00}.step h3{margin:12px 0 7px;font-size:17px}.step p{color:var(--muted);font-size:13px;margin:0}.trust-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:46px;align-items:start}.trust-panel{background:linear-gradient(145deg,#103956,#082338);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:34px}.trust-panel h2{font-size:38px;line-height:1.1;letter-spacing:-.04em;margin:14px 0}.trust-panel p{color:#b9ccdb}.trust-items{display:grid;grid-template-columns:1fr 1fr;gap:14px}.trust-item{padding:22px;border:1px solid rgba(255,255,255,.13);border-radius:9px;background:rgba(255,255,255,.045)}.trust-item b{display:block;color:var(--lime);font-size:23px}.trust-item span{color:#b9ccdb;font-size:13px}.quote-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:48px;align-items:start}.quote-copy h2{font-size:44px;line-height:1.08;letter-spacing:-.045em;margin:12px 0 18px}.quote-copy p{color:var(--muted)}.checklist{list-style:none;padding:0;margin:25px 0}.checklist li{padding:9px 0;border-bottom:1px solid var(--line);font-size:14px}.checklist li:before{content:"✓";font-weight:800;color:#4f7b00;margin-right:10px}.quote-form{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px;box-shadow:var(--shadow)}.demo-note{background:#fff4c7;color:#554400;border:1px solid #efd777;padding:11px 13px;border-radius:7px;font-size:12px;margin-bottom:18px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:800;color:#2f465a}.field input,.field select,.field textarea{width:100%;border:1px solid #cbd9e4;border-radius:6px;padding:12px 13px;font:inherit;font-size:14px;background:#fff;color:var(--ink)}.field textarea{min-height:92px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid rgba(19,109,240,.22);border-color:var(--blue)}.faq{max-width:840px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:19px 0}.faq summary{cursor:pointer;font-weight:800;list-style:none}.faq summary:after{content:"+";float:right;color:var(--blue);font-size:22px}.faq details[open] summary:after{content:"–"}.faq p{color:var(--muted);font-size:14px}.final-cta{background:linear-gradient(110deg,#0b2844,#0d3c58);color:#fff;border-radius:16px;padding:48px;display:flex;align-items:center;justify-content:space-between;gap:30px;box-shadow:var(--shadow)}.final-cta h2{font-size:37px;line-height:1.1;letter-spacing:-.04em;margin:0 0 9px}.final-cta p{margin:0;color:#bcd0dd}.footer{padding:32px 0;color:#64788a;font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:30px;align-items:start}.footer strong{color:var(--ink)}.sticky-mobile{display:none}
+    .hero-grid>*{min-width:0}.concept-bar{overflow-wrap:anywhere}.status-card{left:22px}
+    @media(max-width:900px){.nav-links a:not(.button){display:none}.hero-grid,.trust-grid,.quote-grid{grid-template-columns:1fr}.hero-grid{padding-top:56px}.visual{min-height:420px}.grid-3{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.section-head{display:block}.section-head p{margin-top:14px}.visual{order:-1}.garage{max-width:520px}}
+    @media(max-width:620px){.wrap{width:min(100% - 28px,1120px)}.concept-bar{font-size:9px;line-height:1.35;padding:7px 12px}.site-nav{top:0}.nav-row{height:62px}.brand{font-size:14px}.brand small{display:none}.nav-links .button{display:none}.hero-grid{padding:35px 0 50px;gap:28px}.hero h1{font-size:39px;overflow-wrap:anywhere}.hero .lead{font-size:16px}.visual{min-height:315px}.garage{max-width:350px}.charger{right:42px;top:46px;transform:scale(.75);transform-origin:top right}.cable{right:28px;top:131px;transform:scale(.72) rotate(9deg);transform-origin:top right}.car{left:22px;right:35px;bottom:48px;height:82px}.car:before{left:58px;width:110px;height:38px}.status-card{left:10px;bottom:10px;width:180px;padding:12px}.section{padding:62px 0}.section-head h2,.quote-copy h2{font-size:34px}.grid-3,.process,.trust-items,.fields{grid-template-columns:1fr}.field.full{grid-column:auto}.service-card{padding:22px}.trust-panel{padding:26px}.final-cta{display:block;padding:30px}.final-cta .button{margin-top:22px}.footer-row{display:block}.sticky-mobile{position:fixed;z-index:30;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;left:10px;right:10px;bottom:10px;background:rgba(255,255,255,.95);padding:8px;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);backdrop-filter:blur(10px)}.sticky-mobile .button{min-width:0;min-height:44px;padding:0 7px;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.footer{padding-bottom:95px}}
+  </style>
+</head>
+<body>
+  <div class="concept-bar">UNSOLICITED INDEPENDENT CONCEPT — NOT THE OFFICIAL HARDWIRE ELECTRIC WEBSITE · <a href="https://www.hardwireelectrictexas.com/ev-charger" target="_blank" rel="noopener noreferrer nofollow">View the current official page ↗</a></div>
+  <nav class="site-nav" aria-label="Concept navigation">
+    <div class="wrap nav-row">
+      <a class="brand" href="#top"><span class="mark">ϟ</span><span>Hardwire Electric<small>EV charging concept</small></span></a>
+      <div class="nav-links"><a href="#services">Solutions</a><a href="#process">Process</a><a href="#faq">FAQ</a><a class="button primary" href="#quote">Plan your install</a></div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Richardson + Garland, Texas</div>
+          <h1>Wake up ready to <span>drive electric.</span></h1>
+          <p class="lead">A clearer path to safe, convenient home EV charging—from the first panel conversation to a professionally installed charging setup.</p>
+          <div class="cta-row"><a class="button primary" href="#quote">Plan my EV charger</a><a class="button ghost" href="tel:+14699759489">Call (469) 975-9489</a></div>
+          <div class="microproof"><span>Licensed &amp; insured</span><span>TECL #37752</span><span>Local Richardson service</span></div>
+        </div>
+        <div class="visual" aria-label="Illustration of an electric car charging in a home garage">
+          <div class="garage"><div class="floor"></div><div class="charger"></div><div class="cable"></div><div class="car"></div><div class="status-card"><b>Home charging</b><small>Ready when you are</small><div class="meter"><i></i></div><small>Convenient overnight routine</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">Make the buying decision easier</div><h2>Choose the setup that fits your home.</h2></div><p>This concept separates the customer’s likely needs instead of treating every EV-charger inquiry as the same job.</p></div>
+        <div class="grid-3">
+          <article class="service-card"><div class="icon">⌂</div><h3>Home charger installation</h3><p>Position the core service around convenience, safe installation, charger placement and a dependable daily charging routine.</p><span class="verify">Verified service on official page</span></article>
+          <article class="service-card"><div class="icon">↯</div><h3>Electrical readiness</h3><p>Ask about panel capacity, available breaker space, circuit distance and the proposed cable route before the appointment.</p><span class="verify">Proposed qualification content</span></article>
+          <article class="service-card"><div class="icon">◎</div><h3>Repair &amp; maintenance</h3><p>Give existing EV-charger owners a separate path for troubleshooting and maintenance rather than hiding it in general copy.</p><span class="verify">Verified service on official page</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wash" id="process">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">Reduce uncertainty</div><h2>A transparent installation journey.</h2></div><p>A process section answers “what happens next?” before the homeowner calls, reducing repetitive pre-sale questions.</p></div>
+        <div class="process">
+          <div class="step"><h3>Share your setup</h3><p>Vehicle, charger model, garage location and photos of the electrical panel.</p></div>
+          <div class="step"><h3>Assess readiness</h3><p>Review capacity, breaker space, cable route and any site-specific requirements.</p></div>
+          <div class="step"><h3>Approve the scope</h3><p>Give the homeowner a clear written scope after the electrical assessment.</p></div>
+          <div class="step"><h3>Install &amp; hand off</h3><p>Complete the approved work, test the setup and explain the charging routine.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <div class="wrap trust-grid">
+        <div class="trust-panel"><div class="eyebrow" style="color:var(--lime)">Trust, above the fold</div><h2>Make the contractor—not just the charger—the safe choice.</h2><p>The current site contains licensing information in the footer. This redesign promotes verified trust details where shoppers can see them during the decision.</p><a class="button" style="background:var(--lime);color:var(--ink);margin-top:14px" href="https://www.hardwireelectrictexas.com/" target="_blank" rel="noopener noreferrer nofollow">Visit official company site ↗</a></div>
+        <div class="trust-items">
+          <div class="trust-item"><b>TECL #37752</b><span>Prominent license identification</span></div>
+          <div class="trust-item"><b>Licensed</b><span>Verified wording from official page</span></div>
+          <div class="trust-item"><b>Insured</b><span>Verified wording from official page</span></div>
+          <div class="trust-item"><b>Local</b><span>Richardson and Garland positioning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quote">
+      <div class="wrap quote-grid">
+        <div class="quote-copy"><div class="eyebrow">Higher-quality inquiries</div><h2>Collect the details needed to scope the job.</h2><p>Instead of a generic “message” box, the concept qualifies each lead by vehicle, charger, panel location and timing.</p><ul class="checklist"><li>Separates new installation from repair</li><li>Captures charger and vehicle context</li><li>Asks where the panel and parking space are located</li><li>Sets expectations without publishing an unverified price</li><li>Creates structured data for faster follow-up</li></ul></div>
+        <form class="quote-form" onsubmit="event.preventDefault();document.getElementById('demo-message').hidden=false" aria-label="Nonfunctional concept quote form">
+          <div class="demo-note"><strong>Concept form only:</strong> this public demo does not collect or submit information. A real deployment would connect to the installer’s approved CRM or inbox.</div>
+          <div class="fields">
+            <div class="field"><label for="need">What do you need?</label><select id="need"><option>New home charger installation</option><option>EV charger repair or maintenance</option><option>Not sure yet</option></select></div>
+            <div class="field"><label for="city">Installation city</label><input id="city" placeholder="Richardson, Garland…"></div>
+            <div class="field"><label for="vehicle">Vehicle make/model</label><input id="vehicle" placeholder="Example: Tesla Model Y"></div>
+            <div class="field"><label for="charger">Charger already purchased?</label><select id="charger"><option>No / need guidance</option><option>Yes</option><option>Not sure</option></select></div>
+            <div class="field"><label for="panel">Panel location</label><select id="panel"><option>Garage</option><option>Exterior wall</option><option>Inside the home</option><option>Not sure</option></select></div>
+            <div class="field"><label for="timing">Preferred timing</label><select id="timing"><option>As soon as practical</option><option>Within 2–4 weeks</option><option>Researching options</option></select></div>
+            <div class="field full"><label for="notes">Anything else?</label><textarea id="notes" placeholder="Distance from panel to parking space, photos available, repair symptoms…"></textarea></div>
+            <div class="field full"><button class="button demo" type="submit">Preview request flow</button><p id="demo-message" hidden style="margin:8px 0 0;color:#4f6800;font-size:12px"><strong>Demo complete:</strong> no information was submitted.</p></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section wash" id="faq">
+      <div class="wrap faq">
+        <div class="section-head"><div><div class="eyebrow">Answer objections early</div><h2>Questions homeowners ask before booking.</h2></div></div>
+        <details><summary>Will my electrical panel support an EV charger?</summary><p>A qualified electrician needs to review the panel, available capacity, breaker space, charger requirements and intended cable route. This concept asks for those details early instead of assuming every home is ready.</p></details>
+        <details><summary>Should I buy the charger before requesting an estimate?</summary><p>The page should explain which charger types the installer supports after the company confirms its capabilities. Until then, customers can indicate whether they already own equipment or need guidance.</p></details>
+        <details><summary>What determines installation cost?</summary><p>Common scope drivers can include electrical capacity, circuit distance, wall or trench routing, charger requirements and permit needs. The official company should confirm its estimating and permitting policies before publishing specifics.</p></details>
+        <details><summary>Does Hardwire Electric repair existing EV chargers?</summary><p>Yes. The current official page states that the company offers EV-charger repair and maintenance in addition to installation.</p></details>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap final-cta"><div><h2>Turn EV interest into a qualified conversation.</h2><p>One focused page. Clear local positioning. Better pre-qualification. Less lead leakage.</p></div><a class="button" style="background:var(--lime);color:var(--ink)" href="#quote">See the quote flow</a></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-row"><div><strong>Independent redesign concept</strong><br>Prepared as a business-development demonstration. Not commissioned, approved, or operated by Hardwire Electric, LLC.</div><div>Public facts reviewed July 24, 2026 · <a href="https://www.hardwireelectrictexas.com/ev-charger" target="_blank" rel="noopener noreferrer nofollow">Official EV page</a><br>No leads are collected by this demo.</div></div></footer>
+  <div class="sticky-mobile"><a class="button dark" href="tel:+14699759489">Call official number</a><a class="button primary" href="#quote">View quote flow</a></div>
+</body>
+</html>
